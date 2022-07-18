@@ -28,5 +28,10 @@
     "**/.vscode",
     "**/.vscode/**"
   ],
-  "C_Cpp.errorSquiggles": "Disabled"
+  "C_Cpp.errorSquiggles": "Disabled",
+  "code-runner.runInTerminal": true,
+  "lldb.launch.terminal": "external",
+  "python.terminal.launchArgs": [
+  
+  ]
 }

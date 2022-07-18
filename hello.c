@@ -2,7 +2,15 @@
 
 int main()
 {
- int age = 12;
- printf("Hello, my name is %s and I am %d years old.\n", "John", age);
+ // input expected from users
+ double volume, height, width, depth;
+
+ printf("Enter your values :");
+ scanf("%lf %lf %lf", &height, &width, &depth);
+
+ volume = height * width * depth,
+
+ printf("This is is the %lf volume \n", volume);
+
  return 0;
 }
